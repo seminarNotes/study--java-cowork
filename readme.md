@@ -1,5 +1,6 @@
 # FISA JAVA MINI-PROJECT 
 
+TEAM : 우욱욱
 DATE : 2024-01-12   
 MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 
