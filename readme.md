@@ -16,18 +16,18 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 
 ## OBJECTS
 
-|FILE|METHOD|ROLES|
-|--|--|--|
-|run_main.java|main|작업 실행|
-|webCrawling.py|webCrawling|메뉴 데이터 크롤링|
-|webCrawling.java|removeHtmlTags|HTML 파싱|
-|webCrawling.java|extractTextBetweenWords|Text 파싱|
-|webCrawling.java|parseWeatherInfo|Data 파싱|
-|webCrawling.java|Weather|Data 재정렬|
-|telebot.java|funcTelegram|Telebot 메세징|
-|scheduler.java|scheduler|Task 스케줄링|
-|filescanner.java|filescanner|txt 파일 스캐닝|
-|executePython.java|executePython|파이썬 파일 실행자|
+|MARK|FILE|METHOD|ROLES|
+|--|--|--|--|
+|[A]|run_main.java|main|작업 실행|
+|[B]|webCrawling.py|webCrawling|메뉴 데이터 크롤링|
+|[C]|webCrawling.java|removeHtmlTags|HTML 파싱|
+|[D]|webCrawling.java|extractTextBetweenWords|Text 파싱|
+|[E]|webCrawling.java|parseWeatherInfo|Data 파싱|
+|[F]|webCrawling.java|Weather|Data 재정렬|
+|[G]|telebot.java|funcTelegram|Telebot 메세징|
+|[H]|scheduler.java|scheduler|Task 스케줄링|
+|[I]|filescanner.java|filescanner|txt 파일 스캐닝|
+|[J]|executePython.java|executePython|파이썬 파일 실행자|
 
 
 ## EXPANSIONS  
