@@ -9,7 +9,7 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 
 ## DATAFLOW  
 
-![dataflow](./images/dataflow_edit.png)
+![dataflow](./image/dataflow_edit.png)
 
 
 ## TROUBLESHOOTING
