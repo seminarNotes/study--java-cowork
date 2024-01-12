@@ -13,7 +13,7 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 
 ## OBJECTS
 
-|FILE|CLASS|ROLES|
+|FILE|METHOD|ROLES|
 |--|--|--|
 |run_main.java|main|작업 실행|
 |webCrawling.py|webCrawling|메뉴 데이터 크롤링|
