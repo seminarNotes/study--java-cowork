@@ -29,6 +29,12 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 |filescanner.java|filescanner|txt 파일 스캐닝|
 |executePython.java|executePython|파이썬 파일 실행자|
 
+
+## EXPANSIONS  
+- JDBC를 활용해서 txt 파일이 아니라 DB에 데이터 관리(불필요한 파일을 생성하지 않음)
+- 현 BOT은 print 기능만 있지만, input 기능을 추가하여, 대화형 BOT으로 개선
+
+
 ## TROUBLESHOOTING
 1. 백성욱
 - 데이터 입수 : 날씨 관련된 API를 사용하려 했으나, API 승인 시간, 유료 결제 등으로 데이터 입수에 어려움을 겪음.
