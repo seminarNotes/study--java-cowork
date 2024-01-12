@@ -28,19 +28,6 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 |filescanner.java|filescanner|txt 파일 스캐닝|
 |executePython.java|executePython|파이썬 파일 실행자|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## TROUBLESHOOTING
 1. 백성욱
 - 데이터 입수 : 날씨 관련된 API를 사용하려 했으나, API 승인 시간, 유료 결제 등으로 데이터 입수에 어려움을 겪음.
@@ -55,7 +42,7 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 - JDBC도 활용하려고 했으나, Springboot 요구
 - 초기 SlackBot을 활용하려고 했으나, Springboot 요구
 - 다양한 WebCrawling을 구현하려고 했으나, 다양한 Springboot 요구
-- 맨 처음 프로젝트에 대한 브레인스토밍에서 다양한 아이디어가 나왔으나, 대부분 gradle, maven에 대한 지식과 Springboot 요구
+- 맨 처음 프로젝트에 대한 브레인스토밍에서 다양한 아이디어가 나왔으나, 대부분 gradle, maven, ant에 대한 지식과 Springboot 요구
   
 <!--  
 처음에 날씨 관련 API를 사용하여 했으나, 기상청 API는 담당자의 승인 시간이 필요하고, 네이버와 카카오는 API를 제공하지 않으며, 그 외의 날씨예보를 전해주는 기관은 API를 유료로 제공하는 등 API에 대한 접근성이 좋지 않았음.
