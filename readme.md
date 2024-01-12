@@ -11,6 +11,7 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 
 ![dataflow](./image/dataflow_edit.png)
 
+## OBJECTS
 
 ## TROUBLESHOOTING
 
