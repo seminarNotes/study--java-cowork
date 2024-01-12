@@ -50,8 +50,8 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 - 해당 문제는 파이썬 실행 중 실행하는 디렉토리 값을 os.getcwd()를 통해 가져오고, 파일을 저장할 디렉토리를 새로 생성하는 것으로 해결
 
 3. 우준희
-- 초기 SlackBot을 활용하려고 했으나, Springboot 요구
 - JDBC도 활용하려고 했으나, Springboot 요구
+- 초기 SlackBot을 활용하려고 했으나, Springboot 요구
 - 다양한 WebCrawling을 구현하려고 했으나, 다양한 Springboot 요구
 - 맨 처음 프로젝트에 대한 브레인스토밍에서 다양한 아이디어가 나왔으나, 대부분 gradle, maven에 대한 지식과 Springboot 요구
   
