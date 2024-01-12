@@ -13,6 +13,32 @@ MEMBERS : 백성욱, 윤종욱, 우준희, GPT3.5
 
 ## OBJECTS
 
+|FILE|CLASS|ROLES|
+|--|--|
+|run_main.java|main|작업 실행|
+|webCrawling.py||메뉴 데이터 크롤링|
+|webCrawling.java|removeHtmlTags|HTML 파싱|
+|webCrawling.java|extractTextBetweenWords|Text 파싱|
+|webCrawling.java|parseWeatherInfo|Data 파싱|
+|webCrawling.java|Weather|Data 재정렬|
+|telebot.java|funcTelegram|Telebot 메세징|
+|scheduler.java|scheduler|Task 스케줄링|
+|filescanner.java|filescanner|txt 파일 스캐닝|
+|executePython.java|executePython|파이썬 파일 실행자|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## TROUBLESHOOTING
 
 <날씨 관련>
