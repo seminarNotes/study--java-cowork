@@ -77,7 +77,7 @@ MEMBERS : 신연재, 백성욱, 윤종욱, 우준희, GPT3.5
 1. 신연재
 
 2. 백성욱
-- JDBC를 사용할 때, MySQL은 column의 타입이 DATETIME, INT, VARCHAR, DECIMAL등 다양하지만, 자바에서는 String, int, float 등이 주로 사용되기 때문에, 자료형을 어떤 방식으로 다루어야 하는지 확실하지 않았음 - 챗봇에서 출력시 모든 데이터를 문자열로 보내야 하므로 VARCHAR(String) 자료형으로 통일
+- JDBC를 사용할 때, MySQL은 column의 타입이 DATETIME, INT, VARCHAR, DECIMAL등 다양하지만 자바에서는 String, int, float 등이 주로 사용되기 때문에, 자료형을 어떤 방식으로 다루어야 하는지 확실하지 않았음 - 챗봇에서 출력시 모든 데이터를 문자열로 보내야 하므로 VARCHAR(String) 자료형으로 통일함
   
 3. 윤종욱
 
