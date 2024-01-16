@@ -31,8 +31,9 @@ MEMBERS : 신연재, 백성욱, 윤종욱, 우준희, GPT3.5
 |[F]|webCrawling.java|Weather|Data 재정렬|
 |[G]|telebot.java|funcTelegram|Telebot 메세징|
 |[H]|scheduler.java|scheduler|Task 스케줄링|
-|[I]|filescanner.java|filescanner|txt 파일 스캐닝|
+|[I]|GetMenuFromDB.java|getMenuFromDB|DB 데이터 파싱
 |[J]|executePython.java|executePython|파이썬 파일 실행자|
+[K]|DataControllerWeather.java|DataControllWeather|DB 데이터 입력 및 파싱
 
 
 ## EXPANSIONS - 2024/01/12
