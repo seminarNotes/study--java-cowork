@@ -11,8 +11,8 @@ MEMBERS : 신연재, 백성욱, 윤종욱, 우준희
 |Version|Update Date|Revised Content|source file|markdown file|
 |--|--|--|--|--|
 |v1.0.0|2024-01-12|최초 파일 생성|[cowork_ver2](https://github.com/seminarNotes/practice--java-cowork/tree/main/cowork_ver2)|[./readme_old20240112.md](https://github.com/seminarNotes/practice--java-cowork/blob/main/readme_old20240112.md)|
-|v1.1.0|2024-01-16|JDBC 및 DB 기능 추가|[work_ver3](https://github.com/seminarNotes/practice--java-cowork/tree/main/cowork_ver3)|[./readme_old20240116.md](https://github.com/seminarNotes/practice--java-cowork/blob/main/readme_old20240116.md)|
-|v1.1.1|2024-01-12|Secret Storage 추가|[work_ver4](https://github.com/seminarNotes/practice--java-cowork/tree/main/cowork_ver4)|[./readme.md](https://github.com/seminarNotes/practice--java-cowork/blob/main/readme.md)|
+|v1.1.0|2024-01-16|JDBC 및 DB 기능 추가|[cowork_ver3](https://github.com/seminarNotes/practice--java-cowork/tree/main/cowork_ver3)|[./readme_old20240116.md](https://github.com/seminarNotes/practice--java-cowork/blob/main/readme_old20240116.md)|
+|v1.1.1|2024-01-12|Secret Storage 추가|[cowork_ver4](https://github.com/seminarNotes/practice--java-cowork/tree/main/cowork_ver4)|[./readme.md](https://github.com/seminarNotes/practice--java-cowork/blob/main/readme.md)|
 
 
 ## REVIEWS WITH KPT  
