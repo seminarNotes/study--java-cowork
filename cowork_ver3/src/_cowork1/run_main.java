@@ -14,9 +14,9 @@ import java.io.InputStreamReader;
 public class run_main {
     public static void main(String[] args) throws Exception {
         // [값 선언] 텔레그램 토큰(BOT ID)
-        String token = "6979661382:AAHD5wLltc3x4hLwvndVzRjazskVvvljRRE";
+        String token = "None";
         // [값 선언] 텔레그램 채팅ID
-        String chatId = "6985117293";
+        String chatId = "None";
         // [값 선언] 파일 위치
 //        String filePath = "C:\\ITStudy\\04_java\\cowork\\data\\output.txt";
         // [값 선언] 파일 인코딩
