@@ -2,7 +2,7 @@
 
 TEAM : 新욱욱우  
 DATE : 2024-01-17        
-MEMBERS : 백성욱, 윤종욱, 우준희
+MEMBERS : 신연재, 백성욱, 윤종욱, 우준희
 
 ## DATAFLOW  
 ![dataflow](./image/dataflow_edit_edit_edit_edit.png)
