@@ -2,7 +2,7 @@
 
 TEAM : 욱욱우  
 DATE : 2024-01-12   
-MEMBERS : 백성욱, 윤종욱, 우준희, 신연재, GPT3.5
+MEMBERS :  신연재, 백성욱, 윤종욱, 우준희, 신연재, GPT3.5
 
 
 ## INTRO 
