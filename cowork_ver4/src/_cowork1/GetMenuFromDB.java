@@ -23,15 +23,7 @@ public class GetMenuFromDB {
         Date date = null;
 
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-
-			String url = JavaConfidential.DB_URL;
-			String id = JavaConfidential.DB_ID;
-			String pw = JavaConfidential.DB_PW;
-
-            // db접속 객체
-            conn = DriverManager.getConnection(url, id, pw);
-
+            conn = UtilWeather.getConnection();
             pstmt = conn.prepareStatement("SELECT * FROM TABLE_MENU WHERE BASEDATE = ?");
             for (int i = 0; i < 5; i++) {
                 date = java.sql.Date.valueOf(mondayOfTheWeek.plusDays(i));
