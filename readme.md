@@ -6,6 +6,7 @@ MEMBERS : 백성욱, 윤종욱, 우준희
 
 ## UPDATE NOTE
 |Version|Update Date|Revised Content|markdown file|
+|--|--|--|
 |1.0.0|2024-01-12|최초 파일 생성|./readme_old20240112.md|
 |1.1.0|2024-01-16|JDBC 시스템 구차|./readme_old20240116.md|
 |1.1.1|2024-01-12|최초 파일 생성|./readme.md|
