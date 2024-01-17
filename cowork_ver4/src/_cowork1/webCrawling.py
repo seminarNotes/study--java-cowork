@@ -3,12 +3,29 @@ from datetime import timedelta
 import mysql.connector
 import requests
 import re
-import os 
-import shutil
+import os
+import configparser
 
+# 현재 스크립트 파일의 경로를 가져옴
+script_dir = os.path.dirname(__file__)
+config_path = os.path.join(script_dir, 'config.ini')
 
-REMOTE = 'woori-fisa2.cfnz7hfzq9bn.ap-northeast-2.rds.amazonaws.com'
-(HOST, USER, PASSWORD, DATABASE) = (REMOTE, 'admin', 'woorifisa2!', 'I_HATE_JAVA')
+# ConfigParser 객체 생성
+config = configparser.ConfigParser()
+
+# config.ini 파일을 읽어옴
+config.read(config_path)
+
+# 'DB' 섹션이 있는지 확인
+if 'DB' in config:
+    # 'DB' 섹션에서 값들을 읽어옴
+    HOST = config['DB'].get('HOST', '기본 호스트')
+    USER = config['DB'].get('USER', '기본 사용자')
+    PASSWORD = config['DB'].get('PASS', '기본 암호')
+    DATABASE = config['DB'].get('DATABASE', '기본 데이터베이스')
+else:
+    print("'DB' 섹션이 config.ini 파일에 없습니다.")
+    exit(1)
 
 def connect_mysql() :
     con = mysql.connector.connect(
@@ -24,10 +41,16 @@ def webCrawling_menu(date_datetime):
     formatted_start_of_week = start_of_week.strftime("%Y%m%d")
     formatted_end_of_week = (start_of_week + timedelta(days=4)).strftime("%Y%m%d")
 
-    HEADERS = {
-        "KEY": "836c168790264393ab355e19a0cdef10",
-    }
+    if 'HEADERS' in config:
+        # 'HEADERS' 섹션에서 'KEY' 키의 값을 가져옴
+        key_value = config['HEADERS'].get('KEY', '기본 KEY값')
+    else:
+        print("'HEADERS' 섹션이 config.ini 파일에 없습니다.")
+        exit(1)
 
+    HEADERS = {
+        "KEY": key_value,
+    }
     PARAMETERS = {
         "Type": "json",
         "ATPT_OFCDC_SC_CODE": "B10",
