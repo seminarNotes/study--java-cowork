@@ -4,12 +4,15 @@ TEAM : 新욱욱우
 DATE : 2024-01-17        
 MEMBERS : 백성욱, 윤종욱, 우준희
 
+## DATAFLOW  
+![dataflow](./image/dataflow_edit_edit_edit_edit.png)
+
 ## UPDATE NOTE
-|Version|Update Date|Revised Content|markdown file|
-|--|--|--|
-|1.0.0|2024-01-12|최초 파일 생성|./readme_old20240112.md|
-|1.1.0|2024-01-16|JDBC 시스템 구차|./readme_old20240116.md|
-|1.1.1|2024-01-12|최초 파일 생성|./readme.md|
+|Version|Update Date|Revised Content|source file|markdown file|
+|--|--|--|--|
+|v1.0.0|2024-01-12|최초 파일 생성|./readme_old20240112.md|
+|v1.1.0|2024-01-16|JDBC 및 DB 기능 추가|./readme_old20240116.md|
+|v1.1.1|2024-01-12|Secret Storage 추가|./readme.md|
 
 
 ## REVIEWS WITH KPT  
@@ -22,8 +25,6 @@ MEMBERS : 백성욱, 윤종욱, 우준희
 ### 구체적으로 시도할 내용
 
 
-## DATAFLOW  
 
-![dataflow](./image/dataflow_edit_edit_edit_edit.png)
 
 
